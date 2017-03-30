@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_register"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="25dp"
+        android:stretchColumns="*">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imgheading"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/load"
+                app:riv_oval="true"/>
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_usr"
+                android:hint="@string/register_name"
+                android:singleLine="true"
+                android:background="@drawable/edit_style"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_pwd"
+                android:hint="@string/register_pwd"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:background="@drawable/edit_style"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_pwd2"
+                android:hint="@string/register_repwd"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:background="@drawable/edit_style"/>
+        </TableRow>
+
+        <!--TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/register_region"
+                android:background="@drawable/edit_style"
+                android:singleLine="true"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/register_pro"
+                android:background="@drawable/edit_style"
+                android:singleLine="true"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_style"
+                android:hint="@string/register_sex"
+                android:singleLine="true"/>
+        </TableRow-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.five.util.XEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_style"
+                android:hint="@string/register_sign"
+                android:singleLine="true"/>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/register_but"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/sign_register"/>
+
+            <Button
+                android:id="@+id/register_cls"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/register_cancle"/>
+        </LinearLayout>
+
+    </TableLayout>
+</LinearLayout>

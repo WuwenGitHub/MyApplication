@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Consumer</string>
+
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+
+    <string name="sign_load">登陆</string>
+    <string name="sign_register">注册</string>
+
+    <string name="info_heading">头像</string>
+    <string name="info_name">昵称</string>
+    <string name="info_region">地区</string>
+    <string name="info_pro">职业</string>
+    <string name="info_sex">性别</string>
+    <string name="info_sign">个性签名</string>
+
+    <string name="register_headimg">头像</string>
+    <string name="register_name">请填写用户名</string>
+    <string name="register_pwd">请填写密码</string>
+    <string name="register_repwd">请再次填写密码</string>
+    <string name="register_region">请选择地区</string>
+    <string name="register_pro">请填写职业</string>
+    <string name="register_sex">请选择性别</string>
+    <string name="register_sign">个性签名</string>
+    <string name="register_cancle">取消</string>
+</resources>
